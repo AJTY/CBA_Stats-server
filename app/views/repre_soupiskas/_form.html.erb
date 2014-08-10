@@ -1,0 +1,17 @@
+<%= form_for(@repre_soupiska) do |f| %>
+  <% if @repre_soupiska.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@repre_soupiska.errors.count, "error") %> prohibited this repre_soupiska from being saved:</h2>
+
+      <ul>
+      <% @repre_soupiska.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

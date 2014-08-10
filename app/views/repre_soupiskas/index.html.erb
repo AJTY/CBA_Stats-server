@@ -1,0 +1,23 @@
+<h1>Listing repre_soupiskas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @repre_soupiskas.each do |repre_soupiska| %>
+      <tr>
+        <td><%= link_to 'Show', repre_soupiska %></td>
+        <td><%= link_to 'Edit', edit_repre_soupiska_path(repre_soupiska) %></td>
+        <td><%= link_to 'Destroy', repre_soupiska, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Repre soupiska', new_repre_soupiska_path %>

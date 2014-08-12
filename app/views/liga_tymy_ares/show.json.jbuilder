@@ -1,1 +1,1 @@
-json.extract! @liga_tymy_are, :id, :created_at, :updated_at
+json.extract! @liga_tymy_are, :lta_tid_id, :created_at, :updated_at

@@ -1,0 +1,36 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "k_kontakt_telefon" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "k_kontakt_telefon" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">k_kontakt_telefon</TD></TR>
+      <TR><TD PORT="ktid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">ktid</TD></TR>
+      <TR><TD PORT="kid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">kid</TD></TR>
+      <TR><TD PORT="poradi" COLSPAN="3" ALIGN="LEFT">poradi</TD></TR>
+      <TR><TD PORT="typ" COLSPAN="3" ALIGN="LEFT">typ</TD></TR>
+      <TR><TD PORT="cislo" COLSPAN="3" ALIGN="LEFT">cislo</TD></TR>
+      <TR><TD PORT="pozn" COLSPAN="3" ALIGN="LEFT">pozn</TD></TR>
+      <TR><TD PORT="prava" COLSPAN="3" ALIGN="LEFT">prava</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/k_kontakt_telefon.html"
+    tooltip="k_kontakt_telefon"
+  ];
+}

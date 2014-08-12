@@ -1,0 +1,60 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "users" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "users" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">users</TD></TR>
+      <TR><TD PORT="uid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">uid</TD></TR>
+      <TR><TD PORT="name" COLSPAN="3" ALIGN="LEFT">name</TD></TR>
+      <TR><TD PORT="realname" COLSPAN="3" ALIGN="LEFT">realname</TD></TR>
+      <TR><TD PORT="uname" COLSPAN="3" ALIGN="LEFT">uname</TD></TR>
+      <TR><TD PORT="email" COLSPAN="3" ALIGN="LEFT">email</TD></TR>
+      <TR><TD PORT="femail" COLSPAN="3" ALIGN="LEFT">femail</TD></TR>
+      <TR><TD PORT="url" COLSPAN="3" ALIGN="LEFT">url</TD></TR>
+      <TR><TD PORT="user_avatar" COLSPAN="3" ALIGN="LEFT">user_avatar</TD></TR>
+      <TR><TD PORT="user_regdate" COLSPAN="3" ALIGN="LEFT">user_regdate</TD></TR>
+      <TR><TD PORT="user_icq" COLSPAN="3" ALIGN="LEFT">user_icq</TD></TR>
+      <TR><TD PORT="user_occ" COLSPAN="3" ALIGN="LEFT">user_occ</TD></TR>
+      <TR><TD PORT="user_from" COLSPAN="3" ALIGN="LEFT">user_from</TD></TR>
+      <TR><TD PORT="user_intrest" COLSPAN="3" ALIGN="LEFT">user_intrest</TD></TR>
+      <TR><TD PORT="user_sig" COLSPAN="3" ALIGN="LEFT">user_sig</TD></TR>
+      <TR><TD PORT="user_banner" COLSPAN="3" ALIGN="LEFT">user_banner</TD></TR>
+      <TR><TD PORT="pass" COLSPAN="3" ALIGN="LEFT">pass</TD></TR>
+      <TR><TD PORT="storynum" COLSPAN="3" ALIGN="LEFT">storynum</TD></TR>
+      <TR><TD PORT="umode" COLSPAN="3" ALIGN="LEFT">umode</TD></TR>
+      <TR><TD PORT="uorder" COLSPAN="3" ALIGN="LEFT">uorder</TD></TR>
+      <TR><TD PORT="thold" COLSPAN="3" ALIGN="LEFT">thold</TD></TR>
+      <TR><TD PORT="noscore" COLSPAN="3" ALIGN="LEFT">noscore</TD></TR>
+      <TR><TD PORT="bio" COLSPAN="3" ALIGN="LEFT">bio</TD></TR>
+      <TR><TD PORT="ublockon" COLSPAN="3" ALIGN="LEFT">ublockon</TD></TR>
+      <TR><TD PORT="ublock" COLSPAN="3" ALIGN="LEFT">ublock</TD></TR>
+      <TR><TD PORT="theme" COLSPAN="3" ALIGN="LEFT">theme</TD></TR>
+      <TR><TD PORT="commentmax" COLSPAN="3" ALIGN="LEFT">commentmax</TD></TR>
+      <TR><TD PORT="counter" COLSPAN="3" ALIGN="LEFT">counter</TD></TR>
+      <TR><TD PORT="im_info" COLSPAN="3" ALIGN="LEFT">im_info</TD></TR>
+      <TR><TD PORT="slavista" COLSPAN="3" ALIGN="LEFT">slavista</TD></TR>
+      <TR><TD PORT="webmail_login" COLSPAN="3" ALIGN="LEFT">webmail_login</TD></TR>
+      <TR><TD PORT="webmail_server" COLSPAN="3" ALIGN="LEFT">webmail_server</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">329 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/users.html"
+    tooltip="users"
+  ];
+}

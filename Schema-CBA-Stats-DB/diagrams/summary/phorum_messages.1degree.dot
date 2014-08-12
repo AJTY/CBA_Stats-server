@@ -1,0 +1,49 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "phorum_messages" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "phorum_messages" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">phorum_messages</TD></TR>
+      <TR><TD PORT="message_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">message_id</TD></TR>
+      <TR><TD PORT="forum_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">forum_id</TD></TR>
+      <TR><TD PORT="thread" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">thread</TD></TR>
+      <TR><TD PORT="parent_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">parent_id</TD></TR>
+      <TR><TD PORT="author" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">author</TD></TR>
+      <TR><TD PORT="subject" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">subject</TD></TR>
+      <TR><TD PORT="body" COLSPAN="3" ALIGN="LEFT">body</TD></TR>
+      <TR><TD PORT="email" COLSPAN="3" ALIGN="LEFT">email</TD></TR>
+      <TR><TD PORT="ip" COLSPAN="3" ALIGN="LEFT">ip</TD></TR>
+      <TR><TD PORT="status" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">status</TD></TR>
+      <TR><TD PORT="msgid" COLSPAN="3" ALIGN="LEFT">msgid</TD></TR>
+      <TR><TD PORT="modifystamp" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">modifystamp</TD></TR>
+      <TR><TD PORT="user_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">user_id</TD></TR>
+      <TR><TD PORT="thread_count" COLSPAN="3" ALIGN="LEFT">thread_count</TD></TR>
+      <TR><TD PORT="moderator_post" COLSPAN="3" ALIGN="LEFT">moderator_post</TD></TR>
+      <TR><TD PORT="sort" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">sort</TD></TR>
+      <TR><TD PORT="datestamp" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">datestamp</TD></TR>
+      <TR><TD PORT="meta" COLSPAN="3" ALIGN="LEFT">meta</TD></TR>
+      <TR><TD PORT="viewcount" COLSPAN="3" ALIGN="LEFT">viewcount</TD></TR>
+      <TR><TD PORT="closed" COLSPAN="3" ALIGN="LEFT">closed</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">85 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/phorum_messages.html"
+    tooltip="phorum_messages"
+  ];
+}

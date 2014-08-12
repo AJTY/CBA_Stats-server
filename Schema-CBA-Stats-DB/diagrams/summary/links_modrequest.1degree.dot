@@ -1,0 +1,38 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "links_modrequest" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "links_modrequest" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">links_modrequest</TD></TR>
+      <TR><TD PORT="requestid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">requestid</TD></TR>
+      <TR><TD PORT="lid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">lid</TD></TR>
+      <TR><TD PORT="cid" COLSPAN="3" ALIGN="LEFT">cid</TD></TR>
+      <TR><TD PORT="sid" COLSPAN="3" ALIGN="LEFT">sid</TD></TR>
+      <TR><TD PORT="title" COLSPAN="3" ALIGN="LEFT">title</TD></TR>
+      <TR><TD PORT="url" COLSPAN="3" ALIGN="LEFT">url</TD></TR>
+      <TR><TD PORT="description" COLSPAN="3" ALIGN="LEFT">description</TD></TR>
+      <TR><TD PORT="modifysubmitter" COLSPAN="3" ALIGN="LEFT">modifysubmitter</TD></TR>
+      <TR><TD PORT="brokenlink" COLSPAN="3" ALIGN="LEFT">brokenlink</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/links_modrequest.html"
+    tooltip="links_modrequest"
+  ];
+}

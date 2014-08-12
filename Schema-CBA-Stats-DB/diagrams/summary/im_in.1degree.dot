@@ -1,0 +1,33 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "im_in" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "im_in" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">im_in</TD></TR>
+      <TR><TD PORT="username_to" COLSPAN="3" ALIGN="LEFT">username_to</TD></TR>
+      <TR><TD PORT="username_from" COLSPAN="3" ALIGN="LEFT">username_from</TD></TR>
+      <TR><TD PORT="time" COLSPAN="3" ALIGN="LEFT">time</TD></TR>
+      <TR><TD PORT="IMID" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">IMID</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/im_in.html"
+    tooltip="im_in"
+  ];
+}

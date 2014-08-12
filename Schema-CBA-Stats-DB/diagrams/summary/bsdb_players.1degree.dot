@@ -1,0 +1,45 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "bsdb_players" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "bsdb_players" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">bsdb_players</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="reg_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">reg_id</TD></TR>
+      <TR><TD PORT="pass" COLSPAN="3" ALIGN="LEFT">pass</TD></TR>
+      <TR><TD PORT="last_login" COLSPAN="3" ALIGN="LEFT">last_login</TD></TR>
+      <TR><TD PORT="passport" COLSPAN="3" ALIGN="LEFT">passport</TD></TR>
+      <TR><TD PORT="passp_valid" COLSPAN="3" ALIGN="LEFT">passp_valid</TD></TR>
+      <TR><TD PORT="insurance" COLSPAN="3" ALIGN="LEFT">insurance</TD></TR>
+      <TR><TD PORT="insurance_cpny" COLSPAN="3" ALIGN="LEFT">insurance_cpny</TD></TR>
+      <TR><TD PORT="coach_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">coach_id</TD></TR>
+      <TR><TD PORT="jersey_size" COLSPAN="3" ALIGN="LEFT">jersey_size</TD></TR>
+      <TR><TD PORT="trousers_size" COLSPAN="3" ALIGN="LEFT">trousers_size</TD></TR>
+      <TR><TD PORT="jacket_size" COLSPAN="3" ALIGN="LEFT">jacket_size</TD></TR>
+      <TR><TD PORT="cap_size" COLSPAN="3" ALIGN="LEFT">cap_size</TD></TR>
+      <TR><TD PORT="number" COLSPAN="3" ALIGN="LEFT">number</TD></TR>
+      <TR><TD PORT="sport_insr" COLSPAN="3" ALIGN="LEFT">sport_insr</TD></TR>
+      <TR><TD PORT="username" COLSPAN="3" ALIGN="LEFT">username</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">253 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/bsdb_players.html"
+    tooltip="bsdb_players"
+  ];
+}

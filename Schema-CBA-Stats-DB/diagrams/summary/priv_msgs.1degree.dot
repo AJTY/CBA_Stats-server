@@ -1,0 +1,37 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "priv_msgs" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "priv_msgs" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">priv_msgs</TD></TR>
+      <TR><TD PORT="msg_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">msg_id</TD></TR>
+      <TR><TD PORT="msg_image" COLSPAN="3" ALIGN="LEFT">msg_image</TD></TR>
+      <TR><TD PORT="subject" COLSPAN="3" ALIGN="LEFT">subject</TD></TR>
+      <TR><TD PORT="from_userid" COLSPAN="3" ALIGN="LEFT">from_userid</TD></TR>
+      <TR><TD PORT="to_userid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">to_userid</TD></TR>
+      <TR><TD PORT="msg_time" COLSPAN="3" ALIGN="LEFT">msg_time</TD></TR>
+      <TR><TD PORT="msg_text" COLSPAN="3" ALIGN="LEFT">msg_text</TD></TR>
+      <TR><TD PORT="read_msg" COLSPAN="3" ALIGN="LEFT">read_msg</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/priv_msgs.html"
+    tooltip="priv_msgs"
+  ];
+}

@@ -1,0 +1,36 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "phorum_pm_messages" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "phorum_pm_messages" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">phorum_pm_messages</TD></TR>
+      <TR><TD PORT="pm_message_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">pm_message_id</TD></TR>
+      <TR><TD PORT="from_user_id" COLSPAN="3" ALIGN="LEFT">from_user_id</TD></TR>
+      <TR><TD PORT="from_username" COLSPAN="3" ALIGN="LEFT">from_username</TD></TR>
+      <TR><TD PORT="subject" COLSPAN="3" ALIGN="LEFT">subject</TD></TR>
+      <TR><TD PORT="message" COLSPAN="3" ALIGN="LEFT">message</TD></TR>
+      <TR><TD PORT="datestamp" COLSPAN="3" ALIGN="LEFT">datestamp</TD></TR>
+      <TR><TD PORT="meta" COLSPAN="3" ALIGN="LEFT">meta</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/phorum_pm_messages.html"
+    tooltip="phorum_pm_messages"
+  ];
+}

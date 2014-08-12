@@ -1,0 +1,41 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "downloads" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "downloads" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">downloads</TD></TR>
+      <TR><TD PORT="did" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">did</TD></TR>
+      <TR><TD PORT="dcounter" COLSPAN="3" ALIGN="LEFT">dcounter</TD></TR>
+      <TR><TD PORT="durl" COLSPAN="3" ALIGN="LEFT">durl</TD></TR>
+      <TR><TD PORT="dfilename" COLSPAN="3" ALIGN="LEFT">dfilename</TD></TR>
+      <TR><TD PORT="dfilesize" COLSPAN="3" ALIGN="LEFT">dfilesize</TD></TR>
+      <TR><TD PORT="ddate" COLSPAN="3" ALIGN="LEFT">ddate</TD></TR>
+      <TR><TD PORT="dweb" COLSPAN="3" ALIGN="LEFT">dweb</TD></TR>
+      <TR><TD PORT="duser" COLSPAN="3" ALIGN="LEFT">duser</TD></TR>
+      <TR><TD PORT="dver" COLSPAN="3" ALIGN="LEFT">dver</TD></TR>
+      <TR><TD PORT="dcategory" COLSPAN="3" ALIGN="LEFT">dcategory</TD></TR>
+      <TR><TD PORT="ddescription" COLSPAN="3" ALIGN="LEFT">ddescription</TD></TR>
+      <TR><TD PORT="dprava" COLSPAN="3" ALIGN="LEFT">dprava</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/downloads.html"
+    tooltip="downloads"
+  ];
+}

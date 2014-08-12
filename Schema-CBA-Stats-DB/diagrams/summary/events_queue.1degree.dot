@@ -1,0 +1,43 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "events_queue" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "events_queue" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">events_queue</TD></TR>
+      <TR><TD PORT="qid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">qid</TD></TR>
+      <TR><TD PORT="uid" COLSPAN="3" ALIGN="LEFT">uid</TD></TR>
+      <TR><TD PORT="uname" COLSPAN="3" ALIGN="LEFT">uname</TD></TR>
+      <TR><TD PORT="title" COLSPAN="3" ALIGN="LEFT">title</TD></TR>
+      <TR><TD PORT="story" COLSPAN="3" ALIGN="LEFT">story</TD></TR>
+      <TR><TD PORT="timestamp" COLSPAN="3" ALIGN="LEFT">timestamp</TD></TR>
+      <TR><TD PORT="topic" COLSPAN="3" ALIGN="LEFT">topic</TD></TR>
+      <TR><TD PORT="eventDate" COLSPAN="3" ALIGN="LEFT">eventDate</TD></TR>
+      <TR><TD PORT="endDate" COLSPAN="3" ALIGN="LEFT">endDate</TD></TR>
+      <TR><TD PORT="startTime" COLSPAN="3" ALIGN="LEFT">startTime</TD></TR>
+      <TR><TD PORT="endTime" COLSPAN="3" ALIGN="LEFT">endTime</TD></TR>
+      <TR><TD PORT="alldayevent" COLSPAN="3" ALIGN="LEFT">alldayevent</TD></TR>
+      <TR><TD PORT="barcolor" COLSPAN="3" ALIGN="LEFT">barcolor</TD></TR>
+      <TR><TD PORT="extfile" COLSPAN="3" ALIGN="LEFT">extfile</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/events_queue.html"
+    tooltip="events_queue"
+  ];
+}

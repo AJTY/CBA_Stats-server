@@ -1,0 +1,52 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga</TD></TR>
+      <TR><TD PORT="zid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">zid</TD></TR>
+      <TR><TD PORT="zaid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zaid</TD></TR>
+      <TR><TD PORT="zapas" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zapas</TD></TR>
+      <TR><TD PORT="hid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hid</TD></TR>
+      <TR><TD PORT="datum" COLSPAN="3" ALIGN="LEFT">datum</TD></TR>
+      <TR><TD PORT="cas" COLSPAN="3" ALIGN="LEFT">cas</TD></TR>
+      <TR><TD PORT="dtid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">dtid</TD></TR>
+      <TR><TD PORT="htid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">htid</TD></TR>
+      <TR><TD PORT="dr" COLSPAN="3" ALIGN="LEFT">dr</TD></TR>
+      <TR><TD PORT="hr" COLSPAN="3" ALIGN="LEFT">hr</TD></TR>
+      <TR><TD PORT="rozhodci" COLSPAN="3" ALIGN="LEFT">rozhodci</TD></TR>
+      <TR><TD PORT="poznamka" COLSPAN="3" ALIGN="LEFT">poznamka</TD></TR>
+      <TR><TD PORT="komentar" COLSPAN="3" ALIGN="LEFT">komentar</TD></TR>
+      <TR><TD PORT="confirm" COLSPAN="3" ALIGN="LEFT">confirm</TD></TR>
+      <TR><TD PORT="umpire" COLSPAN="3" ALIGN="LEFT">umpire</TD></TR>
+      <TR><TD PORT="od" COLSPAN="3" ALIGN="LEFT">od</TD></TR>
+      <TR><TD PORT="do" COLSPAN="3" ALIGN="LEFT">do</TD></TR>
+      <TR><TD PORT="pred" COLSPAN="3" ALIGN="LEFT">pred</TD></TR>
+      <TR><TD PORT="pod" COLSPAN="3" ALIGN="LEFT">pod</TD></TR>
+      <TR><TD PORT="poh" COLSPAN="3" ALIGN="LEFT">poh</TD></TR>
+      <TR><TD PORT="por" COLSPAN="3" ALIGN="LEFT">por</TD></TR>
+      <TR><TD PORT="zprava" COLSPAN="3" ALIGN="LEFT">zprava</TD></TR>
+      <TR><TD PORT="body" COLSPAN="3" ALIGN="LEFT">body</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10,257 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga.html"
+    tooltip="liga"
+  ];
+}

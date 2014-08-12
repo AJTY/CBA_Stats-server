@@ -1,0 +1,51 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_xnadhoz" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_xnadhoz" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_xnadhoz</TD></TR>
+      <TR><TD PORT="nid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">nid</TD></TR>
+      <TR><TD PORT="zaid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zaid</TD></TR>
+      <TR><TD PORT="tid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">tid</TD></TR>
+      <TR><TD PORT="pid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pid</TD></TR>
+      <TR><TD PORT="zid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zid</TD></TR>
+      <TR><TD PORT="w" COLSPAN="3" ALIGN="LEFT">w</TD></TR>
+      <TR><TD PORT="l" COLSPAN="3" ALIGN="LEFT">l</TD></TR>
+      <TR><TD PORT="ip" COLSPAN="3" ALIGN="LEFT">ip</TD></TR>
+      <TR><TD PORT="r" COLSPAN="3" ALIGN="LEFT">r</TD></TR>
+      <TR><TD PORT="er" COLSPAN="3" ALIGN="LEFT">er</TD></TR>
+      <TR><TD PORT="bfp" COLSPAN="3" ALIGN="LEFT">bfp</TD></TR>
+      <TR><TD PORT="bb" COLSPAN="3" ALIGN="LEFT">bb</TD></TR>
+      <TR><TD PORT="so" COLSPAN="3" ALIGN="LEFT">so</TD></TR>
+      <TR><TD PORT="hb" COLSPAN="3" ALIGN="LEFT">hb</TD></TR>
+      <TR><TD PORT="wp" COLSPAN="3" ALIGN="LEFT">wp</TD></TR>
+      <TR><TD PORT="h" COLSPAN="3" ALIGN="LEFT">h</TD></TR>
+      <TR><TD PORT="b2" COLSPAN="3" ALIGN="LEFT">b2</TD></TR>
+      <TR><TD PORT="b3" COLSPAN="3" ALIGN="LEFT">b3</TD></TR>
+      <TR><TD PORT="hr" COLSPAN="3" ALIGN="LEFT">hr</TD></TR>
+      <TR><TD PORT="sh" COLSPAN="3" ALIGN="LEFT">sh</TD></TR>
+      <TR><TD PORT="cg" COLSPAN="3" ALIGN="LEFT">cg</TD></TR>
+      <TR><TD PORT="sav" COLSPAN="3" ALIGN="LEFT">sav</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">9,978 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_xnadhoz.html"
+    tooltip="liga_xnadhoz"
+  ];
+}

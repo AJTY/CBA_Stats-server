@@ -1,0 +1,55 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "config_firma" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "config_firma" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">config_firma</TD></TR>
+      <TR><TD PORT="firma" COLSPAN="3" ALIGN="LEFT">firma</TD></TR>
+      <TR><TD PORT="firma2" COLSPAN="3" ALIGN="LEFT">firma2</TD></TR>
+      <TR><TD PORT="adresa1" COLSPAN="3" ALIGN="LEFT">adresa1</TD></TR>
+      <TR><TD PORT="adresa2" COLSPAN="3" ALIGN="LEFT">adresa2</TD></TR>
+      <TR><TD PORT="psc" COLSPAN="3" ALIGN="LEFT">psc</TD></TR>
+      <TR><TD PORT="mesto" COLSPAN="3" ALIGN="LEFT">mesto</TD></TR>
+      <TR><TD PORT="tel1co" COLSPAN="3" ALIGN="LEFT">tel1co</TD></TR>
+      <TR><TD PORT="tel1cislo" COLSPAN="3" ALIGN="LEFT">tel1cislo</TD></TR>
+      <TR><TD PORT="tel2co" COLSPAN="3" ALIGN="LEFT">tel2co</TD></TR>
+      <TR><TD PORT="tel2cislo" COLSPAN="3" ALIGN="LEFT">tel2cislo</TD></TR>
+      <TR><TD PORT="tel3co" COLSPAN="3" ALIGN="LEFT">tel3co</TD></TR>
+      <TR><TD PORT="tel3cislo" COLSPAN="3" ALIGN="LEFT">tel3cislo</TD></TR>
+      <TR><TD PORT="tel4co" COLSPAN="3" ALIGN="LEFT">tel4co</TD></TR>
+      <TR><TD PORT="tel4cislo" COLSPAN="3" ALIGN="LEFT">tel4cislo</TD></TR>
+      <TR><TD PORT="tel5co" COLSPAN="3" ALIGN="LEFT">tel5co</TD></TR>
+      <TR><TD PORT="tel5cislo" COLSPAN="3" ALIGN="LEFT">tel5cislo</TD></TR>
+      <TR><TD PORT="tel6co" COLSPAN="3" ALIGN="LEFT">tel6co</TD></TR>
+      <TR><TD PORT="tel6cislo" COLSPAN="3" ALIGN="LEFT">tel6cislo</TD></TR>
+      <TR><TD PORT="web" COLSPAN="3" ALIGN="LEFT">web</TD></TR>
+      <TR><TD PORT="ico" COLSPAN="3" ALIGN="LEFT">ico</TD></TR>
+      <TR><TD PORT="dic" COLSPAN="3" ALIGN="LEFT">dic</TD></TR>
+      <TR><TD PORT="email" COLSPAN="3" ALIGN="LEFT">email</TD></TR>
+      <TR><TD PORT="ucet" COLSPAN="3" ALIGN="LEFT">ucet</TD></TR>
+      <TR><TD PORT="banka" COLSPAN="3" ALIGN="LEFT">banka</TD></TR>
+      <TR><TD PORT="odkaz" COLSPAN="3" ALIGN="LEFT">odkaz</TD></TR>
+      <TR><TD PORT="url" COLSPAN="3" ALIGN="LEFT">url</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/config_firma.html"
+    tooltip="config_firma"
+  ];
+}

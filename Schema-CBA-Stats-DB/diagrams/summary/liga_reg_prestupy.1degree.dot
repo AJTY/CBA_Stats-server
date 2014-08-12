@@ -1,0 +1,43 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_reg_prestupy" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_reg_prestupy" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_reg_prestupy</TD></TR>
+      <TR><TD PORT="prid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">prid</TD></TR>
+      <TR><TD PORT="rid" COLSPAN="3" ALIGN="LEFT">rid</TD></TR>
+      <TR><TD PORT="tid1" COLSPAN="3" ALIGN="LEFT">tid1</TD></TR>
+      <TR><TD PORT="tid2" COLSPAN="3" ALIGN="LEFT">tid2</TD></TR>
+      <TR><TD PORT="regrok" COLSPAN="3" ALIGN="LEFT">regrok</TD></TR>
+      <TR><TD PORT="rozhodnuto" COLSPAN="3" ALIGN="LEFT">rozhodnuto</TD></TR>
+      <TR><TD PORT="datum_od" COLSPAN="3" ALIGN="LEFT">datum_od</TD></TR>
+      <TR><TD PORT="stav" COLSPAN="3" ALIGN="LEFT">stav</TD></TR>
+      <TR><TD PORT="hromadne" COLSPAN="3" ALIGN="LEFT">hromadne</TD></TR>
+      <TR><TD PORT="zapl_tid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zapl_tid</TD></TR>
+      <TR><TD PORT="zapl_fa" COLSPAN="3" ALIGN="LEFT">zapl_fa</TD></TR>
+      <TR><TD PORT="zapl_dne" COLSPAN="3" ALIGN="LEFT">zapl_dne</TD></TR>
+      <TR><TD PORT="zaplaceno" COLSPAN="3" ALIGN="LEFT">zaplaceno</TD></TR>
+      <TR><TD PORT="poznamka" COLSPAN="3" ALIGN="LEFT">poznamka</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">443 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_reg_prestupy.html"
+    tooltip="liga_reg_prestupy"
+  ];
+}

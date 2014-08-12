@@ -1,0 +1,38 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "banner" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "banner" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">banner</TD></TR>
+      <TR><TD PORT="bid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">bid</TD></TR>
+      <TR><TD PORT="cid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">cid</TD></TR>
+      <TR><TD PORT="imptotal" COLSPAN="3" ALIGN="LEFT">imptotal</TD></TR>
+      <TR><TD PORT="impmade" COLSPAN="3" ALIGN="LEFT">impmade</TD></TR>
+      <TR><TD PORT="clicks" COLSPAN="3" ALIGN="LEFT">clicks</TD></TR>
+      <TR><TD PORT="imageurl" COLSPAN="3" ALIGN="LEFT">imageurl</TD></TR>
+      <TR><TD PORT="clickurl" COLSPAN="3" ALIGN="LEFT">clickurl</TD></TR>
+      <TR><TD PORT="altinfo" COLSPAN="3" ALIGN="LEFT">altinfo</TD></TR>
+      <TR><TD PORT="date" COLSPAN="3" ALIGN="LEFT">date</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/banner.html"
+    tooltip="banner"
+  ];
+}

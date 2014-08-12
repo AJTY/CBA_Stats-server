@@ -1,0 +1,40 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "gallery_categories" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "gallery_categories" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">gallery_categories</TD></TR>
+      <TR><TD PORT="gallid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">gallid</TD></TR>
+      <TR><TD PORT="gallname" COLSPAN="3" ALIGN="LEFT">gallname</TD></TR>
+      <TR><TD PORT="gallimg" COLSPAN="3" ALIGN="LEFT">gallimg</TD></TR>
+      <TR><TD PORT="galloc" COLSPAN="3" ALIGN="LEFT">galloc</TD></TR>
+      <TR><TD PORT="description" COLSPAN="3" ALIGN="LEFT">description</TD></TR>
+      <TR><TD PORT="parent" COLSPAN="3" ALIGN="LEFT">parent</TD></TR>
+      <TR><TD PORT="visible" COLSPAN="3" ALIGN="LEFT">visible</TD></TR>
+      <TR><TD PORT="template" COLSPAN="3" ALIGN="LEFT">template</TD></TR>
+      <TR><TD PORT="numcol" COLSPAN="3" ALIGN="LEFT">numcol</TD></TR>
+      <TR><TD PORT="total" COLSPAN="3" ALIGN="LEFT">total</TD></TR>
+      <TR><TD PORT="lastadd" COLSPAN="3" ALIGN="LEFT">lastadd</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">208 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/gallery_categories.html"
+    tooltip="gallery_categories"
+  ];
+}

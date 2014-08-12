@@ -1,0 +1,35 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_notify" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_notify" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_notify</TD></TR>
+      <TR><TD PORT="nid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">nid</TD></TR>
+      <TR><TD PORT="zid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zid</TD></TR>
+      <TR><TD PORT="datum" COLSPAN="3" ALIGN="LEFT">datum</TD></TR>
+      <TR><TD PORT="dr" COLSPAN="3" ALIGN="LEFT">dr</TD></TR>
+      <TR><TD PORT="hr" COLSPAN="3" ALIGN="LEFT">hr</TD></TR>
+      <TR><TD PORT="poznamka" COLSPAN="3" ALIGN="LEFT">poznamka</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">493 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_notify.html"
+    tooltip="liga_notify"
+  ];
+}

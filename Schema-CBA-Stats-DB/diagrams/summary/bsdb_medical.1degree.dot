@@ -1,0 +1,47 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "bsdb_medical" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "bsdb_medical" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">bsdb_medical</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="player_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">player_id</TD></TR>
+      <TR><TD PORT="pitch_hand" COLSPAN="3" ALIGN="LEFT">pitch_hand</TD></TR>
+      <TR><TD PORT="pitch_years" COLSPAN="3" ALIGN="LEFT">pitch_years</TD></TR>
+      <TR><TD PORT="bet_side" COLSPAN="3" ALIGN="LEFT">bet_side</TD></TR>
+      <TR><TD PORT="catcher_knees" COLSPAN="3" ALIGN="LEFT">catcher_knees</TD></TR>
+      <TR><TD PORT="ilness" COLSPAN="3" ALIGN="LEFT">ilness</TD></TR>
+      <TR><TD PORT="surgery" COLSPAN="3" ALIGN="LEFT">surgery</TD></TR>
+      <TR><TD PORT="medicaments" COLSPAN="3" ALIGN="LEFT">medicaments</TD></TR>
+      <TR><TD PORT="alergies" COLSPAN="3" ALIGN="LEFT">alergies</TD></TR>
+      <TR><TD PORT="shoulder" COLSPAN="3" ALIGN="LEFT">shoulder</TD></TR>
+      <TR><TD PORT="shoulder_place" COLSPAN="3" ALIGN="LEFT">shoulder_place</TD></TR>
+      <TR><TD PORT="elbow" COLSPAN="3" ALIGN="LEFT">elbow</TD></TR>
+      <TR><TD PORT="elbow_place" COLSPAN="3" ALIGN="LEFT">elbow_place</TD></TR>
+      <TR><TD PORT="stretching_shoulder" COLSPAN="3" ALIGN="LEFT">stretching_shoulder</TD></TR>
+      <TR><TD PORT="stretching_elbow" COLSPAN="3" ALIGN="LEFT">stretching_elbow</TD></TR>
+      <TR><TD PORT="ice_after_pitch" COLSPAN="3" ALIGN="LEFT">ice_after_pitch</TD></TR>
+      <TR><TD PORT="notes" COLSPAN="3" ALIGN="LEFT">notes</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/bsdb_medical.html"
+    tooltip="bsdb_medical"
+  ];
+}

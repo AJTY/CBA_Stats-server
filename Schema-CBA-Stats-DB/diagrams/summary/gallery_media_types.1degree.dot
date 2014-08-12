@@ -1,0 +1,34 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "gallery_media_types" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "gallery_media_types" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">gallery_media_types</TD></TR>
+      <TR><TD PORT="extension" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">extension</TD></TR>
+      <TR><TD PORT="description" COLSPAN="3" ALIGN="LEFT">description</TD></TR>
+      <TR><TD PORT="filetype" COLSPAN="3" ALIGN="LEFT">filetype</TD></TR>
+      <TR><TD PORT="displaytag" COLSPAN="3" ALIGN="LEFT">displaytag</TD></TR>
+      <TR><TD PORT="thumbnail" COLSPAN="3" ALIGN="LEFT">thumbnail</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">10 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/gallery_media_types.html"
+    tooltip="gallery_media_types"
+  ];
+}

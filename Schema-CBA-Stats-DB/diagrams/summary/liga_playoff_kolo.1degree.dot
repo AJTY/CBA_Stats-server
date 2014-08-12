@@ -1,0 +1,36 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_playoff_kolo" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_playoff_kolo" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_playoff_kolo</TD></TR>
+      <TR><TD PORT="pokid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">pokid</TD></TR>
+      <TR><TD PORT="poradi" COLSPAN="3" ALIGN="LEFT">poradi</TD></TR>
+      <TR><TD PORT="kolo_cz" COLSPAN="3" ALIGN="LEFT">kolo_cz</TD></TR>
+      <TR><TD PORT="kolo_en" COLSPAN="3" ALIGN="LEFT">kolo_en</TD></TR>
+      <TR><TD PORT="zkr_cz" COLSPAN="3" ALIGN="LEFT">zkr_cz</TD></TR>
+      <TR><TD PORT="zkr_en" COLSPAN="3" ALIGN="LEFT">zkr_en</TD></TR>
+      <TR><TD PORT="active" COLSPAN="3" ALIGN="LEFT">active</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">14 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_playoff_kolo.html"
+    tooltip="liga_playoff_kolo"
+  ];
+}

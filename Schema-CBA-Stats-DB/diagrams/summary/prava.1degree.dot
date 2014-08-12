@@ -1,0 +1,34 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "prava" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "prava" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">prava</TD></TR>
+      <TR><TD PORT="pid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pid</TD></TR>
+      <TR><TD PORT="pravo" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">pravo</TD></TR>
+      <TR><TD PORT="komu" COLSPAN="3" ALIGN="LEFT">komu</TD></TR>
+      <TR><TD PORT="komumin" COLSPAN="3" ALIGN="LEFT">komumin</TD></TR>
+      <TR><TD PORT="kdo" COLSPAN="3" ALIGN="LEFT">kdo</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/prava.html"
+    tooltip="prava"
+  ];
+}

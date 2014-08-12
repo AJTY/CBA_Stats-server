@@ -1,0 +1,57 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "gallery_config" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "gallery_config" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">gallery_config</TD></TR>
+      <TR><TD PORT="module_name" COLSPAN="3" ALIGN="LEFT">module_name</TD></TR>
+      <TR><TD PORT="gallerypath" COLSPAN="3" ALIGN="LEFT">gallerypath</TD></TR>
+      <TR><TD PORT="adminurl" COLSPAN="3" ALIGN="LEFT">adminurl</TD></TR>
+      <TR><TD PORT="allowpostpics" COLSPAN="3" ALIGN="LEFT">allowpostpics</TD></TR>
+      <TR><TD PORT="anonpostpics" COLSPAN="3" ALIGN="LEFT">anonpostpics</TD></TR>
+      <TR><TD PORT="limitsize" COLSPAN="3" ALIGN="LEFT">limitsize</TD></TR>
+      <TR><TD PORT="maxsize" COLSPAN="3" ALIGN="LEFT">maxsize</TD></TR>
+      <TR><TD PORT="allowcomments" COLSPAN="3" ALIGN="LEFT">allowcomments</TD></TR>
+      <TR><TD PORT="anoncomments" COLSPAN="3" ALIGN="LEFT">anoncomments</TD></TR>
+      <TR><TD PORT="allowrate" COLSPAN="3" ALIGN="LEFT">allowrate</TD></TR>
+      <TR><TD PORT="anonrate" COLSPAN="3" ALIGN="LEFT">anonrate</TD></TR>
+      <TR><TD PORT="setratecookies" COLSPAN="3" ALIGN="LEFT">setratecookies</TD></TR>
+      <TR><TD PORT="thumbnailwidth" COLSPAN="3" ALIGN="LEFT">thumbnailwidth</TD></TR>
+      <TR><TD PORT="gallerypicturename" COLSPAN="3" ALIGN="LEFT">gallerypicturename</TD></TR>
+      <TR><TD PORT="maxnumbermedia" COLSPAN="3" ALIGN="LEFT">maxnumbermedia</TD></TR>
+      <TR><TD PORT="displaytop" COLSPAN="3" ALIGN="LEFT">displaytop</TD></TR>
+      <TR><TD PORT="minvotes" COLSPAN="3" ALIGN="LEFT">minvotes</TD></TR>
+      <TR><TD PORT="displaysearchform" COLSPAN="3" ALIGN="LEFT">displaysearchform</TD></TR>
+      <TR><TD PORT="displaysortbar" COLSPAN="3" ALIGN="LEFT">displaysortbar</TD></TR>
+      <TR><TD PORT="defaultsortmedia" COLSPAN="3" ALIGN="LEFT">defaultsortmedia</TD></TR>
+      <TR><TD PORT="maintemplate" COLSPAN="3" ALIGN="LEFT">maintemplate</TD></TR>
+      <TR><TD PORT="numcolmain" COLSPAN="3" ALIGN="LEFT">numcolmain</TD></TR>
+      <TR><TD PORT="imagesoftware" COLSPAN="3" ALIGN="LEFT">imagesoftware</TD></TR>
+      <TR><TD PORT="allowpostcard" COLSPAN="3" ALIGN="LEFT">allowpostcard</TD></TR>
+      <TR><TD PORT="postscardpath" COLSPAN="3" ALIGN="LEFT">postscardpath</TD></TR>
+      <TR><TD PORT="maxcharacters" COLSPAN="3" ALIGN="LEFT">maxcharacters</TD></TR>
+      <TR><TD PORT="limitgaladmin" COLSPAN="3" ALIGN="LEFT">limitgaladmin</TD></TR>
+      <TR><TD PORT="validatecats" COLSPAN="3" ALIGN="LEFT">validatecats</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/gallery_config.html"
+    tooltip="gallery_config"
+  ];
+}

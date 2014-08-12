@@ -1,0 +1,33 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "ans" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "ans" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">ans</TD></TR>
+      <TR><TD PORT="ansid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">ansid</TD></TR>
+      <TR><TD PORT="ansname" COLSPAN="3" ALIGN="LEFT">ansname</TD></TR>
+      <TR><TD PORT="ansemail" COLSPAN="3" ALIGN="LEFT">ansemail</TD></TR>
+      <TR><TD PORT="ansshort" COLSPAN="3" ALIGN="LEFT">ansshort</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">184 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/ans.html"
+    tooltip="ans"
+  ];
+}

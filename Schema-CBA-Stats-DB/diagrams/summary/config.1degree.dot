@@ -1,0 +1,57 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "config" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "config" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">config</TD></TR>
+      <TR><TD PORT="sitename" COLSPAN="3" ALIGN="LEFT">sitename</TD></TR>
+      <TR><TD PORT="nuke_url" COLSPAN="3" ALIGN="LEFT">nuke_url</TD></TR>
+      <TR><TD PORT="site_logo" COLSPAN="3" ALIGN="LEFT">site_logo</TD></TR>
+      <TR><TD PORT="slogan" COLSPAN="3" ALIGN="LEFT">slogan</TD></TR>
+      <TR><TD PORT="startdate" COLSPAN="3" ALIGN="LEFT">startdate</TD></TR>
+      <TR><TD PORT="adminmail" COLSPAN="3" ALIGN="LEFT">adminmail</TD></TR>
+      <TR><TD PORT="anonpost" COLSPAN="3" ALIGN="LEFT">anonpost</TD></TR>
+      <TR><TD PORT="Default_Theme" COLSPAN="3" ALIGN="LEFT">Default_Theme</TD></TR>
+      <TR><TD PORT="foot1" COLSPAN="3" ALIGN="LEFT">foot1</TD></TR>
+      <TR><TD PORT="foot2" COLSPAN="3" ALIGN="LEFT">foot2</TD></TR>
+      <TR><TD PORT="foot3" COLSPAN="3" ALIGN="LEFT">foot3</TD></TR>
+      <TR><TD PORT="foot4" COLSPAN="3" ALIGN="LEFT">foot4</TD></TR>
+      <TR><TD PORT="commentlimit" COLSPAN="3" ALIGN="LEFT">commentlimit</TD></TR>
+      <TR><TD PORT="anonymous" COLSPAN="3" ALIGN="LEFT">anonymous</TD></TR>
+      <TR><TD PORT="create_user" COLSPAN="3" ALIGN="LEFT">create_user</TD></TR>
+      <TR><TD PORT="minpass" COLSPAN="3" ALIGN="LEFT">minpass</TD></TR>
+      <TR><TD PORT="articlecomm" COLSPAN="3" ALIGN="LEFT">articlecomm</TD></TR>
+      <TR><TD PORT="top" COLSPAN="3" ALIGN="LEFT">top</TD></TR>
+      <TR><TD PORT="storyhome" COLSPAN="3" ALIGN="LEFT">storyhome</TD></TR>
+      <TR><TD PORT="oldnum" COLSPAN="3" ALIGN="LEFT">oldnum</TD></TR>
+      <TR><TD PORT="ultramode" COLSPAN="3" ALIGN="LEFT">ultramode</TD></TR>
+      <TR><TD PORT="banners" COLSPAN="3" ALIGN="LEFT">banners</TD></TR>
+      <TR><TD PORT="myIP" COLSPAN="3" ALIGN="LEFT">myIP</TD></TR>
+      <TR><TD PORT="backend_title" COLSPAN="3" ALIGN="LEFT">backend_title</TD></TR>
+      <TR><TD PORT="backend_language" COLSPAN="3" ALIGN="LEFT">backend_language</TD></TR>
+      <TR><TD PORT="language" COLSPAN="3" ALIGN="LEFT">language</TD></TR>
+      <TR><TD PORT="multilang" COLSPAN="3" ALIGN="LEFT">multilang</TD></TR>
+      <TR><TD PORT="locale" COLSPAN="3" ALIGN="LEFT">locale</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/config.html"
+    tooltip="config"
+  ];
+}

@@ -1,0 +1,55 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_akce" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_akce" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_akce</TD></TR>
+      <TR><TD PORT="zaid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">zaid</TD></TR>
+      <TR><TD PORT="uid1" COLSPAN="3" ALIGN="LEFT">uid1</TD></TR>
+      <TR><TD PORT="uid2" COLSPAN="3" ALIGN="LEFT">uid2</TD></TR>
+      <TR><TD PORT="uid3" COLSPAN="3" ALIGN="LEFT">uid3</TD></TR>
+      <TR><TD PORT="active" COLSPAN="3" ALIGN="LEFT">active</TD></TR>
+      <TR><TD PORT="showtab" COLSPAN="3" ALIGN="LEFT">showtab</TD></TR>
+      <TR><TD PORT="showres" COLSPAN="3" ALIGN="LEFT">showres</TD></TR>
+      <TR><TD PORT="showump" COLSPAN="3" ALIGN="LEFT">showump</TD></TR>
+      <TR><TD PORT="rid" COLSPAN="3" ALIGN="LEFT">rid</TD></TR>
+      <TR><TD PORT="sid" COLSPAN="3" ALIGN="LEFT">sid</TD></TR>
+      <TR><TD PORT="popis" COLSPAN="3" ALIGN="LEFT">popis</TD></TR>
+      <TR><TD PORT="zakladod" COLSPAN="3" ALIGN="LEFT">zakladod</TD></TR>
+      <TR><TD PORT="zakladdo" COLSPAN="3" ALIGN="LEFT">zakladdo</TD></TR>
+      <TR><TD PORT="cast2od" COLSPAN="3" ALIGN="LEFT">cast2od</TD></TR>
+      <TR><TD PORT="cast2do" COLSPAN="3" ALIGN="LEFT">cast2do</TD></TR>
+      <TR><TD PORT="cast2zaklad" COLSPAN="3" ALIGN="LEFT">cast2zaklad</TD></TR>
+      <TR><TD PORT="playoffod" COLSPAN="3" ALIGN="LEFT">playoffod</TD></TR>
+      <TR><TD PORT="playoffdo" COLSPAN="3" ALIGN="LEFT">playoffdo</TD></TR>
+      <TR><TD PORT="playoffzaklad" COLSPAN="3" ALIGN="LEFT">playoffzaklad</TD></TR>
+      <TR><TD PORT="playofftab" COLSPAN="3" ALIGN="LEFT">playofftab</TD></TR>
+      <TR><TD PORT="sestupod" COLSPAN="3" ALIGN="LEFT">sestupod</TD></TR>
+      <TR><TD PORT="sestupdo" COLSPAN="3" ALIGN="LEFT">sestupdo</TD></TR>
+      <TR><TD PORT="sestupzaklad" COLSPAN="3" ALIGN="LEFT">sestupzaklad</TD></TR>
+      <TR><TD PORT="skrec" COLSPAN="3" ALIGN="LEFT">skrec</TD></TR>
+      <TR><TD PORT="akttab" COLSPAN="3" ALIGN="LEFT">akttab</TD></TR>
+      <TR><TD PORT="aktsort" COLSPAN="3" ALIGN="LEFT">aktsort</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">268 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_akce.html"
+    tooltip="liga_akce"
+  ];
+}

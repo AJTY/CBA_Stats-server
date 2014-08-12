@@ -1,0 +1,35 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "repre_soupiska" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "repre_soupiska" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">repre_soupiska</TD></TR>
+      <TR><TD PORT="sou_id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">sou_id</TD></TR>
+      <TR><TD PORT="sou_catid" COLSPAN="3" ALIGN="LEFT">sou_catid</TD></TR>
+      <TR><TD PORT="sou_rid" COLSPAN="3" ALIGN="LEFT">sou_rid</TD></TR>
+      <TR><TD PORT="sou_post" COLSPAN="3" ALIGN="LEFT">sou_post</TD></TR>
+      <TR><TD PORT="sou_rok" COLSPAN="3" ALIGN="LEFT">sou_rok</TD></TR>
+      <TR><TD PORT="sou_active" COLSPAN="3" ALIGN="LEFT">sou_active</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">246 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/repre_soupiska.html"
+    tooltip="repre_soupiska"
+  ];
+}

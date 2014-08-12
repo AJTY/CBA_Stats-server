@@ -1,0 +1,36 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "links_votedata" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "links_votedata" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">links_votedata</TD></TR>
+      <TR><TD PORT="ratingdbid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">ratingdbid</TD></TR>
+      <TR><TD PORT="ratinglid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">ratinglid</TD></TR>
+      <TR><TD PORT="ratinguser" COLSPAN="3" ALIGN="LEFT">ratinguser</TD></TR>
+      <TR><TD PORT="rating" COLSPAN="3" ALIGN="LEFT">rating</TD></TR>
+      <TR><TD PORT="ratinghostname" COLSPAN="3" ALIGN="LEFT">ratinghostname</TD></TR>
+      <TR><TD PORT="ratingcomments" COLSPAN="3" ALIGN="LEFT">ratingcomments</TD></TR>
+      <TR><TD PORT="ratingtimestamp" COLSPAN="3" ALIGN="LEFT">ratingtimestamp</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">2,469 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/links_votedata.html"
+    tooltip="links_votedata"
+  ];
+}

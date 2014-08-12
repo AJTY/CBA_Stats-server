@@ -1,0 +1,33 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "events_config" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "events_config" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">events_config</TD></TR>
+      <TR><TD PORT="barcolor" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">barcolor</TD></TR>
+      <TR><TD PORT="barname" COLSPAN="3" ALIGN="LEFT">barname</TD></TR>
+      <TR><TD PORT="barporadi" COLSPAN="3" ALIGN="LEFT">barporadi</TD></TR>
+      <TR><TD PORT="bartopic" COLSPAN="3" ALIGN="LEFT">bartopic</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">7 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/events_config.html"
+    tooltip="events_config"
+  ];
+}

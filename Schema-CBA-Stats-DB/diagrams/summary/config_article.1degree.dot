@@ -1,0 +1,51 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "config_article" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "config_article" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">config_article</TD></TR>
+      <TR><TD PORT="notify" COLSPAN="3" ALIGN="LEFT">notify</TD></TR>
+      <TR><TD PORT="notify_email" COLSPAN="3" ALIGN="LEFT">notify_email</TD></TR>
+      <TR><TD PORT="notify_subject" COLSPAN="3" ALIGN="LEFT">notify_subject</TD></TR>
+      <TR><TD PORT="notify_message" COLSPAN="3" ALIGN="LEFT">notify_message</TD></TR>
+      <TR><TD PORT="notify_from" COLSPAN="3" ALIGN="LEFT">notify_from</TD></TR>
+      <TR><TD PORT="moderate" COLSPAN="3" ALIGN="LEFT">moderate</TD></TR>
+      <TR><TD PORT="reasons" COLSPAN="3" ALIGN="LEFT">reasons</TD></TR>
+      <TR><TD PORT="setCookies" COLSPAN="3" ALIGN="LEFT">setCookies</TD></TR>
+      <TR><TD PORT="tipath" COLSPAN="3" ALIGN="LEFT">tipath</TD></TR>
+      <TR><TD PORT="userimg" COLSPAN="3" ALIGN="LEFT">userimg</TD></TR>
+      <TR><TD PORT="adminimg" COLSPAN="3" ALIGN="LEFT">adminimg</TD></TR>
+      <TR><TD PORT="admingraphic" COLSPAN="3" ALIGN="LEFT">admingraphic</TD></TR>
+      <TR><TD PORT="admart" COLSPAN="3" ALIGN="LEFT">admart</TD></TR>
+      <TR><TD PORT="httpref" COLSPAN="3" ALIGN="LEFT">httpref</TD></TR>
+      <TR><TD PORT="httprefmax" COLSPAN="3" ALIGN="LEFT">httprefmax</TD></TR>
+      <TR><TD PORT="CensorList" COLSPAN="3" ALIGN="LEFT">CensorList</TD></TR>
+      <TR><TD PORT="CensorMode" COLSPAN="3" ALIGN="LEFT">CensorMode</TD></TR>
+      <TR><TD PORT="CensorReplace" COLSPAN="3" ALIGN="LEFT">CensorReplace</TD></TR>
+      <TR><TD PORT="cookieadmtime" COLSPAN="3" ALIGN="LEFT">cookieadmtime</TD></TR>
+      <TR><TD PORT="cookiePrefix" COLSPAN="3" ALIGN="LEFT">cookiePrefix</TD></TR>
+      <TR><TD PORT="show_user" COLSPAN="3" ALIGN="LEFT">show_user</TD></TR>
+      <TR><TD PORT="Version_Num" COLSPAN="3" ALIGN="LEFT">Version_Num</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/config_article.html"
+    tooltip="config_article"
+  ];
+}

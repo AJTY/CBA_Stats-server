@@ -1,0 +1,84 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "zapasy" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "zapasy" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">zapasy</TD></TR>
+      <TR><TD PORT="zid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">zid</TD></TR>
+      <TR><TD PORT="zaid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zaid</TD></TR>
+      <TR><TD PORT="zapas" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">zapas</TD></TR>
+      <TR><TD PORT="hid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">hid</TD></TR>
+      <TR><TD PORT="datum" COLSPAN="3" ALIGN="LEFT">datum</TD></TR>
+      <TR><TD PORT="cas" COLSPAN="3" ALIGN="LEFT">cas</TD></TR>
+      <TR><TD PORT="rozhodci" COLSPAN="3" ALIGN="LEFT">rozhodci</TD></TR>
+      <TR><TD PORT="dtid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">dtid</TD></TR>
+      <TR><TD PORT="htid" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">htid</TD></TR>
+      <TR><TD PORT="dr" COLSPAN="3" ALIGN="LEFT">dr</TD></TR>
+      <TR><TD PORT="hr" COLSPAN="3" ALIGN="LEFT">hr</TD></TR>
+      <TR><TD PORT="dh" COLSPAN="3" ALIGN="LEFT">dh</TD></TR>
+      <TR><TD PORT="hh" COLSPAN="3" ALIGN="LEFT">hh</TD></TR>
+      <TR><TD PORT="de" COLSPAN="3" ALIGN="LEFT">de</TD></TR>
+      <TR><TD PORT="he" COLSPAN="3" ALIGN="LEFT">he</TD></TR>
+      <TR><TD PORT="dlob" COLSPAN="3" ALIGN="LEFT">dlob</TD></TR>
+      <TR><TD PORT="hlob" COLSPAN="3" ALIGN="LEFT">hlob</TD></TR>
+      <TR><TD PORT="wpitcher" COLSPAN="3" ALIGN="LEFT">wpitcher</TD></TR>
+      <TR><TD PORT="lpitcher" COLSPAN="3" ALIGN="LEFT">lpitcher</TD></TR>
+      <TR><TD PORT="saves" COLSPAN="3" ALIGN="LEFT">saves</TD></TR>
+      <TR><TD PORT="komentar_cz" COLSPAN="3" ALIGN="LEFT">komentar_cz</TD></TR>
+      <TR><TD PORT="komentar_en" COLSPAN="3" ALIGN="LEFT">komentar_en</TD></TR>
+      <TR><TD PORT="dstatistika" COLSPAN="3" ALIGN="LEFT">dstatistika</TD></TR>
+      <TR><TD PORT="hstatistika" COLSPAN="3" ALIGN="LEFT">hstatistika</TD></TR>
+      <TR><TD PORT="gid" COLSPAN="3" ALIGN="LEFT">gid</TD></TR>
+      <TR><TD PORT="dip1" COLSPAN="3" ALIGN="LEFT">dip1</TD></TR>
+      <TR><TD PORT="hip1" COLSPAN="3" ALIGN="LEFT">hip1</TD></TR>
+      <TR><TD PORT="dip2" COLSPAN="3" ALIGN="LEFT">dip2</TD></TR>
+      <TR><TD PORT="hip2" COLSPAN="3" ALIGN="LEFT">hip2</TD></TR>
+      <TR><TD PORT="dip3" COLSPAN="3" ALIGN="LEFT">dip3</TD></TR>
+      <TR><TD PORT="hip3" COLSPAN="3" ALIGN="LEFT">hip3</TD></TR>
+      <TR><TD PORT="dip4" COLSPAN="3" ALIGN="LEFT">dip4</TD></TR>
+      <TR><TD PORT="hip4" COLSPAN="3" ALIGN="LEFT">hip4</TD></TR>
+      <TR><TD PORT="dip5" COLSPAN="3" ALIGN="LEFT">dip5</TD></TR>
+      <TR><TD PORT="hip5" COLSPAN="3" ALIGN="LEFT">hip5</TD></TR>
+      <TR><TD PORT="dip6" COLSPAN="3" ALIGN="LEFT">dip6</TD></TR>
+      <TR><TD PORT="hip6" COLSPAN="3" ALIGN="LEFT">hip6</TD></TR>
+      <TR><TD PORT="dip7" COLSPAN="3" ALIGN="LEFT">dip7</TD></TR>
+      <TR><TD PORT="hip7" COLSPAN="3" ALIGN="LEFT">hip7</TD></TR>
+      <TR><TD PORT="dip8" COLSPAN="3" ALIGN="LEFT">dip8</TD></TR>
+      <TR><TD PORT="hip8" COLSPAN="3" ALIGN="LEFT">hip8</TD></TR>
+      <TR><TD PORT="dip9" COLSPAN="3" ALIGN="LEFT">dip9</TD></TR>
+      <TR><TD PORT="hip9" COLSPAN="3" ALIGN="LEFT">hip9</TD></TR>
+      <TR><TD PORT="dip10" COLSPAN="3" ALIGN="LEFT">dip10</TD></TR>
+      <TR><TD PORT="hip10" COLSPAN="3" ALIGN="LEFT">hip10</TD></TR>
+      <TR><TD PORT="dip11" COLSPAN="3" ALIGN="LEFT">dip11</TD></TR>
+      <TR><TD PORT="hip11" COLSPAN="3" ALIGN="LEFT">hip11</TD></TR>
+      <TR><TD PORT="dip12" COLSPAN="3" ALIGN="LEFT">dip12</TD></TR>
+      <TR><TD PORT="hip12" COLSPAN="3" ALIGN="LEFT">hip12</TD></TR>
+      <TR><TD PORT="dip13" COLSPAN="3" ALIGN="LEFT">dip13</TD></TR>
+      <TR><TD PORT="hip13" COLSPAN="3" ALIGN="LEFT">hip13</TD></TR>
+      <TR><TD PORT="dip14" COLSPAN="3" ALIGN="LEFT">dip14</TD></TR>
+      <TR><TD PORT="hip14" COLSPAN="3" ALIGN="LEFT">hip14</TD></TR>
+      <TR><TD PORT="dip15" COLSPAN="3" ALIGN="LEFT">dip15</TD></TR>
+      <TR><TD PORT="hip15" COLSPAN="3" ALIGN="LEFT">hip15</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">4,441 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/zapasy.html"
+    tooltip="zapasy"
+  ];
+}

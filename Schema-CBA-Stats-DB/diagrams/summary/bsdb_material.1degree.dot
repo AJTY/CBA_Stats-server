@@ -1,0 +1,37 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "bsdb_material" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "bsdb_material" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">bsdb_material</TD></TR>
+      <TR><TD PORT="id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD></TR>
+      <TR><TD PORT="player_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">player_id</TD></TR>
+      <TR><TD PORT="material_type_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">material_type_id</TD></TR>
+      <TR><TD PORT="get" COLSPAN="3" ALIGN="LEFT">get</TD></TR>
+      <TR><TD PORT="when" COLSPAN="3" ALIGN="LEFT">when</TD></TR>
+      <TR><TD PORT="return" COLSPAN="3" ALIGN="LEFT">return</TD></TR>
+      <TR><TD PORT="returned" COLSPAN="3" ALIGN="LEFT">returned</TD></TR>
+      <TR><TD PORT="period_id" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">period_id</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">14,441 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/bsdb_material.html"
+    tooltip="bsdb_material"
+  ];
+}

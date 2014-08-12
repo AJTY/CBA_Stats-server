@@ -1,0 +1,33 @@
+// dot 2.38.0 on Mac OS X 10.9.4
+// SchemaSpy rev 590
+digraph "liga_kategorie" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "liga_kategorie" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">liga_kategorie</TD></TR>
+      <TR><TD PORT="katid" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">katid</TD></TR>
+      <TR><TD PORT="kategorie" COLSPAN="3" ALIGN="LEFT">kategorie</TD></TR>
+      <TR><TD PORT="vekmin" COLSPAN="3" ALIGN="LEFT">vekmin</TD></TR>
+      <TR><TD PORT="vekmax" COLSPAN="3" ALIGN="LEFT">vekmax</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">8 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/liga_kategorie.html"
+    tooltip="liga_kategorie"
+  ];
+}

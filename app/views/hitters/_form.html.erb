@@ -1,0 +1,17 @@
+<%= form_for(@hitter) do |f| %>
+  <% if @hitter.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hitter.errors.count, "error") %> prohibited this hitter from being saved:</h2>
+
+      <ul>
+      <% @hitter.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

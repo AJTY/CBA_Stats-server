@@ -3,5 +3,5 @@ json.array!(@repre_soupiskas) do |repre_soupiska|
   # json.url repre_soupiska_url(repre_soupiska, format: :json)
   repre_soupiska.attributes.each do |key, value|
     json.set!(key, value)
-  end
+end
 end

@@ -22,7 +22,7 @@ liga_akce_tymy.tid = liga_tymy.tid AND liga.zid=liga_xpalka.zid AND
 liga_xpalka.zaid='252' GROUP BY liga_xpalka.pid ORDER BY ba DESC, pab DESC,
 jmeno ASC"
 
-    @record_array = ActiveRecord::Base.connection.execute(sql)
+    @record_array = ActiveRecord::Base.connection.select(sql)
     puts @record_array;
 
   end

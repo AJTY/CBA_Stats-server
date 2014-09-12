@@ -10,13 +10,24 @@
 
 
 
-@record_array.each do |row|
-    row.each do |k, v|
-    puts "column #{k} contains #{v}"
+# json.array!(@liga_tymies) do |liga_tymy|
+#   liga_tymy.attributes.each do |key, value|
+#     json.set!(key, value)
+#   end
+# end
+
+
+
+json.array!(@record_array) do |row|
+  row.each do |k, v|
     json.set!(k, v)
-    end
+  end
 end
 
 # results.first.keys.each do |key|
 #   key
 # end
+
+# @my_array.each do |key, value|
+#   json.set!(key, value)
+#   end

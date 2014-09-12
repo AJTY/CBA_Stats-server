@@ -23,7 +23,19 @@ liga_xpalka.zaid='252' GROUP BY liga_xpalka.pid ORDER BY ba DESC, pab DESC,
 jmeno ASC"
 
     @record_array = ActiveRecord::Base.connection.select(sql)
-    puts @record_array;
+    # puts @record_array;
+    # @record_array = @record_array.to_s
+    @my_array = Array.new()
+    @record_array.each do |row|
+      row.each do |k, v|
+        # puts "column #{k} contains #{v}"
+        hash = {k.to_s => v.to_s}
+      end
+      @my_array.push(hash)
+    end
+
+
+    puts @my_array
 
   end
 

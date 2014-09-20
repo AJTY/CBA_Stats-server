@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pitchers/exl2014'
+
+  get 'pitchers/exl2013'
+
   resources :ligas
   resources :repre_soupiskas
   resources :liga_hracis

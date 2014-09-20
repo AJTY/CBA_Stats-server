@@ -1,0 +1,33 @@
+<%= form_for(@pithcher) do |f| %>
+  <% if @pithcher.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pithcher.errors.count, "error") %> prohibited this pithcher from being saved:</h2>
+
+      <ul>
+      <% @pithcher.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :exl2014 %><br>
+    <%= f.text_field :exl2014 %>
+  </div>
+  <div class="field">
+    <%= f.label :exl2013 %><br>
+    <%= f.text_field :exl2013 %>
+  </div>
+  <div class="field">
+    <%= f.label :exl2012 %><br>
+    <%= f.text_field :exl2012 %>
+  </div>
+  <div class="field">
+    <%= f.label :exl2011 %><br>
+    <%= f.text_field :exl2011 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

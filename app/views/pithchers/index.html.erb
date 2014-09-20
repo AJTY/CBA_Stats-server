@@ -1,0 +1,31 @@
+<h1>Listing pithchers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Exl2014</th>
+      <th>Exl2013</th>
+      <th>Exl2012</th>
+      <th>Exl2011</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pithchers.each do |pithcher| %>
+      <tr>
+        <td><%= pithcher.exl2014 %></td>
+        <td><%= pithcher.exl2013 %></td>
+        <td><%= pithcher.exl2012 %></td>
+        <td><%= pithcher.exl2011 %></td>
+        <td><%= link_to 'Show', pithcher %></td>
+        <td><%= link_to 'Edit', edit_pithcher_path(pithcher) %></td>
+        <td><%= link_to 'Destroy', pithcher, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pithcher', new_pithcher_path %>
